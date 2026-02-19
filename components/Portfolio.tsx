@@ -22,7 +22,7 @@ export const Portfolio = () => {
           {PORTFOLIO.map((item) => (
             <div
               key={item.id}
-              className="group relative rounded-2xl overflow-hidden shadow-lg aspect-[4/3]"
+              className="group relative rounded-2xl overflow-hidden aspect-[4/3]"
             >
               {/* Image - FULL terlihat */}
               <img
